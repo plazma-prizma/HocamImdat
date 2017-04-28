@@ -63,6 +63,11 @@
             "title": "Deutsch",
             "language": "de",
             "confirmation": "Neue Sprache eingestellt"
+          },
+          {
+            "title": "Türkçe",
+            "language": "tr",
+            "confirmation": "Yeni dil belirlendi"
           }
         ]
       },
@@ -412,6 +417,11 @@
             "title": "Deutsch",
             "language": "de",
             "confirmation": "Neue Sprache eingestellt"
+          },
+          {
+            "title": "Türkçe",
+            "language": "tr",
+            "confirmation": "Yeni dil belirlendi"
           }
         ]
       },

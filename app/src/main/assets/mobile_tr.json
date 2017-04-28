@@ -1,0 +1,856 @@
+{
+    "mobile": {
+        "version": "9",
+        "data": [
+            {
+                "id": "setup-warning",
+                "lang": "tr",
+                "type": "warning",
+                "title": "Uyarı",
+                "action": [
+                    {
+                        "title": "Başla",
+                        "link": "setup-contacts"
+                    }
+                ],
+                "content": "<p>Hocam-İmdat yardıma ihtiyacın olduğunda bağlantılı olduğun kişileri hızlı bir şekilde uyaracak kullanışlı bir araçtır. Bu uygulama güvenliğini garantilemez! Kişilerinle, hızlı hareket etmeye hazırlıklı olabilsinler diye bir plan yap.</p>"
+            },
+            {
+                "id": "setup-message",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Uyarı Mesajını Ayarla",
+                "introduction": "Konumunla beraber şu mesaj gönderilecektir.",
+                "warning": "Kişilerinle, bu mesajı aldıklarında ne yapacaklarını bilmeleri için bir plan yap.",
+                "component": "message",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "setup-code"
+                    }
+                ],
+                "content": "<p>Güvenlik İpuçları</p><ul><li>Mesajına konumunun dahil edilmesini istiyorsan, telefon ayarlarından GPS takibini etkinleştir. </li><li>Mesajını sadece kişilerinin anlayabileceği şifreli kelimeler ya da ifadelerle oluşturmayı düşünebilirsin.</li><li>Acil durumlarda, mesajını değiştirmeye zamanın olmayacağı için her duruma uygun olabilecek bir şey oluştur. </li></ul>"},
+            {
+                "id": "setup-language",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Dil Ayarları",
+                "introduction": "Uygulama için bir dil seç.",
+                "component": "language",
+                "action": [
+                    {
+                        "title": "English",
+                        "language": "en",
+                        "confirmation": "New language applied"
+                    },
+                    {
+                        "title": "Español",
+                        "language": "es",
+                        "confirmation": "Nuevo lenguaje seleccionado"
+                    },
+                    {
+                        "title": "Français",
+                        "language": "fr",
+                        "confirmation": "Nouveau language selectionné"
+                    },
+                    {
+                        "title": "Português",
+                        "language": "pt",
+                        "confirmation": "Novo idioma aplicado"
+                    },
+                    {
+                        "title": "Deutsch",
+                        "language": "de",
+                        "confirmation": "Neue Sprache eingestellt"
+                    },
+                    {
+                        "title": "Türkçe",
+                        "language": "tr",
+                        "confirmation": "Yeni dil belirlendi"
+                    }
+                ]
+            },
+            {
+                "id": "setup-disguise-test-unlock-fail",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Sahte Görünüm Oluştur",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-disguise-test-open"
+                    }
+                ],
+                "content": "<p>Uygulamayı, Hesap Lütfen! görünümünden açmakta başarısız olmuşsun gibi görünüyor. </p><p>Unutma: Herhangi bir tuşa basılı tut. Pin kodu girmen istenecektir. </p>"
+            },
+            {
+                "id": "setup-disguise-test-unlock",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Sahte Görünümü Test Et",
+                "introduction": "Şimdi dene! Hesap makinesindeki herhangi bir tuşa basılı tut.",
+                "component": "disguise-test-unlock",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-disguise-test-code"
+                },
+                "fail": {
+                    "link": "setup-disguise-test-unlock-fail"
+                }
+            },
+            {
+                "id": "setup-disguise-test-success",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Tebrikler",
+                "action": [
+                    {
+                        "title": "Bitir",
+                        "link": "home-ready"
+                    }
+                ],
+                "content": "<p>Tebrikler, Hocam-İmdat uygulamasını başarılı bir şekilde yapılandırdın!</p>"
+            },
+            {
+                "id": "setup-disguise-test-open-fail",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Sahte Görünümü Ayarla",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-disguise-test-open"
+                    }
+                ],
+                "content": "<p>Uygulamayı, Hesap makinesi görünümünden açmakta başarısız olmuşsun gibi görünüyor.</p><p>Unutma: Uygulama simgesi, gizlendiğinde bir hesap makinesi simgesine dönüşür.</p>"
+            },
+            {
+                "id": "setup-disguise-test-open",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Sahte görünümü test et",
+                "introduction": "Şimdi dene! Uygulamayı Hesap Lütfen! simgesine tıklayarak aç.",
+                "component": "disguise-test-open",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-disguise-test-unlock"
+                },
+                "fail": {
+                    "link": "setup-disguise-test-open-fail"
+                }
+            },
+            {
+                "id": "setup-disguise-test-code-fail",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Sahte görünüm oluştur",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-disguise-test-unlock"
+                    }
+                ],
+                "content": "<p>Uygulamayı, Hesap Lütfen! görünümünden açmakta başarısız olmuşsun gibi görünüyor.</p><p> Unutma: Yapılandırmanın ilk aşamalarında belirlediğin pin kodunu gir. Eğer pin kodunu hatırlayamıyorsan, lütfen uygulamayı telefonundan kaldır ve tekrar yükle. </p>"
+            },
+            {
+                "id": "setup-disguise-test-code",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Sahte görünümü test et",
+                "introduction": "Tebrikler! Şimdi, ayarlara ulaşmak için pin kodunu gir.",
+                "component": "disguise-test-code",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "action": [
+                    {
+                        "title": "Tamam",
+                        "link": "setup-disguise-test-success"
+                    }
+                ],
+                "success": {
+                    "link": "setup-disguise-test-success"
+                },
+                "fail": {
+                    "link": "setup-disguise-test-code-fail"
+                }
+            },
+            {
+                "id": "setup-disguise",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Sahte görünüm oluştur",
+                "action": [
+                    {
+                        "title": "Öğren",
+                        "link": "setup-disguise-test-open"
+                    }
+                ],
+                "content": "<p>Hocam-İmdat telefonunda basit bir hesap makinesi gibi görünerek gizli kalır. Bundan sonra, uygulamayı her açtığında hesap makinesi şeklinde göreceksin. Her beş dakikada bir otomatik uyarı göndermeyi durdurmak için, sahte görünümü nasıl devre dışı bırakacağını öğrenmelisin. Nasıl çalıştığını öğren. </p>"
+            },
+            {
+                "id": "setup-contacts",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Kişileri Düzenle",
+                "introduction": "Uygulamayı etkinleştirirsen, bu insanlar her beş dakikada bir uyarı alacaklardır. ",
+                "warning": "Bu insanlar seni şahsen tanımalı ve hızlıca harekete geçebilmeli.",
+                "component": "contacts",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "setup-message"
+                    }
+                ],
+                "content": "<p>Güvenlik İpuçları</p><ul><li>Sana kimin kolay bir şekilde yardımcı olabileceğini düşün - tehlikede olduğunda, sana yardımcı olamayacak kişileri bilgilendirmenin bir anlamı yok.</li><li>Seçtiğin kişilerle, acil durumlarda hızlı hareket etmeye hazırlıklı olabilsinler diye bir plan yap. </li><li>Risklerin farkında ol - seçtiğin kişiler nasıl bir riskin altına girebilirler?</li></ul>"
+            },
+            {
+                "id": "setup-code",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Pin kodu oluştur",
+                "introduction": "Bu pin kodu, uygulamanın otomatik olarak uyarı göndermesini durdurmak ve uygulama ayarlarına erişmek için gereklidir. Kişilerini acil durumda uyarmak için gerekli değildir.",
+                "warning": "Pin kodunu unutma! Eğer unutursan, uygulamayı tekrar kurman gerekecek.",
+                "component": "code",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "home-not-configured-alarm"
+                    }
+                ]
+            },
+            {
+                "id": "setup-alarm-test-hardware-success",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Tebrikler!",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "setup-alarm-disguise"
+                    }
+                ],
+                "content": "<p>Testin başarılıydı! Acil bir durumda, uygulamayı etkinleştirmiş olacaktın ve her beş dakikada bir otomatik olarak bir uyarı gönderilmiş olacaktı.</p>"
+            },
+            {
+                "id": "setup-alarm-test-hardware-fail",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Uyarıyı hazırla",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-alarm-test-hardware"
+                    }
+                ],
+                "content": "<p>Uyarıyı, telefonunun güç düğmesini kullanarak etkinleştirmekte başarısız olmuşsun gibi görünüyor. </p><p>Unutma: Bir titreşim hissedene kadar, hesap makinesinde bir düğmeye basmaya devam et. Bazı telefonlarda, düğmeye 10 defadan fazla basman ve sonra 2 defa onaylamak için basman gerekebilir.</p>"},
+            {
+                "id": "setup-alarm-test-hardware",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Donanım uyarısını test et",
+                "introduction": "Şimdi Dene! Bir titreşim hissedene kadar güç düğmesine tekrar tekrar bas. Uyarıyı etkinleştirmek için güç düğmesini kullanmak ekranını kilitleyebilir. Uygulamayı kurmaya devam etmek için sadece ekran kilidini aç.",
+                "component": "alarm-test-hardware",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-alarm-test-hardware-success"
+                },
+                "fail": {
+                    "link": "setup-alarm-test-hardware-fail"
+                },
+                "content": "<p><img src=\"/media/mobile/panic_button_activation_360_en.gif\" alt=\"\"></p>"
+            },
+            {
+                "id": "setup-alarm-test-disguise-success",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Tebrikler!",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "home-not-configured-disguise"
+                    }
+                ],
+                "content": "<p>Testin başarılıydı! Acil bir durumda, uygulamayı etkinleştirmiş olacaktın ve her beş dakikada bir otomatik olarak bir uyarı gönderilmiş olacaktı.</p>"
+            },
+            {
+                "id": "setup-alarm-test-disguise-fail",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Setup Alert",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-alarm-test-disguise"
+                    }
+                ],
+                "content": "<p>Uyarıyı etkinleştirmede başarısız olmuşsun gibi görünüyor.</p><p>Unutma: Bir titreşim hissedene kadar hesap makinesindeki bir tuşa tekrar tekrar basmaya devam et.</p>"
+            },
+            {
+                "id": "setup-alarm-test-disguise",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Test Disguised Alarm",
+                "introduction": "Şimdi Dene! Bir titreşim hissedene kadar güç düğmesine tekrar tekrar bas",
+                "component": "alarm-test-disguise",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-alarm-test-disguise-success"
+                },
+                "fail": {
+                    "link": "setup-alarm-test-disguise-fail"
+                }
+            },
+            {
+                "id": "setup-alarm-disguise",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Setup Alert",
+                "action": [
+                    {
+                        "title": "Learn",
+                        "link": "setup-alarm-test-disguise"
+                    }
+                ],
+                "content":  "<p> Alternatif olarak, uyarıyı direkt olarak uygulamanın sahte görünümlü ekranından etkinleştirebilirsin.</p>"
+            },
+            {
+                "id": "setup-alarm",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Setup Alert",
+                "action": [
+                    {
+                        "title": "Öğren",
+                        "link": "setup-alarm-test-hardware"
+                    }
+                ],
+                "content":  "<p>Artık Hocam-İmdat uygulamasını nasıl etkinleştireceğini öğrendin.</p><p>Hocam-İmdat uygulaması, uyarıyı telefonun güç düğmesinden etkinleştirebildiğin için eşsizdir. Yani, mesela ceketinin cebinden uygulamayı gizlice çalıştırabilirsin. </p>"
+            },
+            {
+                "id": "setup-about",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hakkında",
+                "content": "<p>Hocam-İmdat cep telefonunu başın beladayken gizli bir alarma dönüştürür. </p><p><strong>Hocam-İmdat Nasıl Çalışır?</strong></p><ul><li>Güvenli ve sakin bir yerde Hocam-İmdat uygulamasını kurmak için ZAMAN AYIR</li><li>HAREKETE GEÇMEYE HAZIR OLMALARI İÇİN kişilerinle bir plan oluştur</li><li>Uygulamanın hazır olup olmadığını ve telefonun şarjı ile kontörünün yeterli olup olmadığını KONTROL ET </li><li>Acil bir durumda telefonunun güç düğmesine hızlı hızlı basarak Hocam-İmdat uygulamasını ETKİNLEŞTİR </li><li>Bağlantılı olduğun kişilerin, acil bir durumda HIZLICA HAREKETE GEÇMELERİNE yardımcı olması için konumu düzenli şekilde güncellenen bir SMS alacaklar”</li></ul><p>Panic Button projesi, Frontline Defenders, iilab ve the engine room'u da içeren ortaklar ve baş danışmanlar ile ortak çalışma halindeki Uluslararası Af Örgütü'nün bir girişimidir.</p><p>Bu girişimden türemiş Hocam-İmdat, ODTÜlülerin kampüs içi güvenliğini artırmayı amaçlayan bir uygulamadır.</p>"},
+            {
+                "id": "settings-reset-confirm",
+                "lang": "tr",
+                "type": "warning",
+                "title": "Kurulumu yeniden başlatmayı onayla",
+                "action": [
+                    {
+                        "title": "Onayla",
+                        "link": "home-not-configured"
+                    }
+                ],
+                "content": "<p>Lütfen kurulumu yeniden başlatmak istediğinizi onaylayın. Eğer kurulumu yeniden başlatırsanız, sihirbazı tamamlayana kadar uyarı devre dışı kalacaktır. </p>"
+            },
+            {
+                "id": "settings-message",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Setup alert message",
+                "introduction": "Konumunuzla birlikte şu mesaj gönderilecektir.",
+                "warning": "Bu mesajı aldıklarında ne yapacaklarını bilmeleri için kişilerinle bir plan oluştur.",
+                "component": "message",
+                "action": [
+                    {
+                        "title": "Kaydet",
+                        "link": "home-ready",
+                        "confirmation": "Mesaj kaydedildi"
+                    }
+                ],
+                "content": "<p>Güvenlik İpuçları</p><ul><li>Konumunun mesaja dahil edilmesini istiyorsan telefon ayarlarından GPS takibini etkinleştir. </li><li>Mesajını sadece kişilerinin anlayabileceği şifreli kelimeler ya da ifadelerle oluşturmayı düşünebilirsin.</li><li>Acil durumlarda, mesajını değiştirmeye zamanın olmayacağı için her duruma uygun olabilecek bir şey oluştur.</li></ul>"
+            },
+            {
+                "id": "settings-language",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Dil Ayarları",
+                "introduction": "Uygulama için bir dil seçin",
+                "component": "language",
+                "action": [
+                    {
+                        "title": "English",
+                        "language": "en",
+                        "confirmation": "New language applied"
+                    },
+                    {
+                        "title": "Español",
+                        "language": "es",
+                        "confirmation": "Nuevo lenguaje seleccionado"
+                    },
+                    {
+                        "title": "Français",
+                        "language": "fr",
+                        "confirmation": "Nouveau language selectionné"
+                    },
+                    {
+                        "title": "Português",
+                        "language": "pt",
+                        "confirmation": "Novo idioma aplicado"
+                    },
+                    {
+                        "title": "Deutsch",
+                        "language": "de",
+                        "confirmation": "Neue Sprache eingestellt"
+                    },
+                    {
+                        "title": "Türkçe",
+                        "language": "tr",
+                        "confirmation": "Yeni dil seçildi."
+                    }
+                ]
+            },
+            {
+                "id": "settings-contacts",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Setup contacts",
+                "introduction": "Uygulamayı etkinleştirirsen, bu insanlar her beş dakikada bir uyarı alacaklardır. ",
+                "warning": "Bu insanlar seni şahsen tanımalı ve hızlıca harekete geçebilmeli.",
+                "component": "contacts",
+                "action": [
+                    {
+                        "title": "Kaydet",
+                        "link": "home-ready",
+                        "confirmation": "Kişilerin kaydedildi"
+                    }
+                ],
+                "content": "<p>Güvenlik İpuçları</p><ul><li>Sana kimin kolay bir şekilde yardımcı olabileceğini düşün.- Tehlikede olduğunda, sana yardımcı olamayacak kişileri bilgilendirmenin bir anlamı yok. Seçtiğin kişilerle, acil durumlarda hızlı hareket etmeye hazırlıklı olabilsinler diye bir plan yap. </li><li>-Risklerin farkında ol- kişilerinin nasıl bir risk altında olabilir?</li></ul>"
+            },
+            {
+                "id": "settings-code",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Create a pincode",
+                "introduction": "Bu pin kodu, uygulamanın uyarıyı otomatik olarak göndermesini durdurmak ve uygulama ayarlarına erişmek için gereklidir. Acil bir durumda uyarı mesajlarını etkinleştirmek için gerekli değildir.",
+                "warning": "Pin kodunu unutma! Unutursan, uygulamayı baştan yüklemen gerekecek.",
+                "component": "code",
+                "action": [
+                    {
+                        "title": "Kaydet",
+                        "link": "home-ready",
+                        "confirmation": "Pin kodu kaydedildi"
+                    }
+                ]
+            },
+            {
+                "id": "settings-advanced",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Gelişmiş Ayarlar",
+                "introduction": "Gelişmiş Ayarlar",
+                "warning": "Şarjına dikkat et! Çok sık uyarı göndermek şarjını bitirebilir.",
+                "component": "advanced",
+                "action": [
+                    {
+                        "title": "Kaydet",
+                        "link": "home-ready",
+                        "confirmation": "Yeni ayarlar kaydedildi"
+                    }
+                ]
+            },
+            {
+                "id": "settings-alert",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Uyarı ayarları",
+                "introduction": "Sıklığı Ayarla",
+                "warning": "Şarjına dikkat et! Çok sık uyarı göndermek şarjını bitirebilir.",
+                "component": "alert",
+                "action": [
+                    {
+                        "title": "Kaydet",
+                        "link": "home-ready",
+                        "confirmation": "Yeni uyarı sıklığı kaydedildi"
+                    }
+                ]
+            },
+            {
+                "id": "settings",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Ayarlar",
+                "items": [
+                    {
+                        "title": "Dil Ayarları",
+                        "link": "settings-language"
+                    },
+                    {
+                        "title": "Mesaj Ayarları",
+                        "link": "settings-message"
+                    },
+                    {
+                        "title": "Kişi Ayarları",
+                        "link": "settings-contacts"
+                    },
+                    {
+                        "title": "Uyarı Ayarları",
+                        "link": "settings-alert"
+                    },
+                    {
+                        "title": "Pin Ayarları",
+                        "link": "settings-code"
+                    },
+                    {
+                        "title": "Gelişmiş Ayarlar",
+                        "link": "settings-advanced"
+                    },
+                    {
+                        "title": "Kurulumu Yeniden Başlat",
+                        "link": "settings-reset-confirm"
+                    }
+                ]
+            },
+            {
+                "id": "home-ready",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hocam-İmdat",
+                "status": [
+                    {
+                        "title": "Hazır",
+                        "color": "green",
+                        "link": "help-ready"
+                    }
+                ],
+                "action": [
+                    {
+                        "title": "Sakla",
+                        "link": "checklist"
+                    }
+                ],
+                "items": [
+                    {
+                        "title": "Ayarlar",
+                        "link": "settings"
+                    },
+                    {
+                        "title": "Hakkında",
+                        "link": "setup-about"
+                    },
+                    {
+                        "title": "Yardım",
+                        "link": "help"
+                    }
+                ],
+                "content": "<p>Hocam-İmdat kuruldu ve kullanıma hazır. Çıkmak ve uygulamayı gizlemek için Görünümü Değiştir'e bas.</p>"
+            },
+            {
+                "id": "home-not-configured-disguise",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hocam-İmdat",
+                "status": [
+                    {
+                        "title": "Kur tamamlanmadı",
+                        "color": "red",
+                        "link": "help-not-configured"
+                    }
+                ],
+                "action": [
+                    {
+                        "title": "Basit Ayarlar",
+                        "link": "",
+                        "status": "checked"
+                    },
+                    {
+                        "title": "Uyarıyı Ayarla",
+                        "link": "",
+                        "status": "checked"
+                    },
+                    {
+                        "title": "Saklamayı etkinleştir",
+                        "link": "setup-disguise"
+                    }
+                ],
+                "items": [
+                    {
+                        "title": "Hakkında",
+                        "link": "setup-about"
+                    },
+                    {
+                        "title": "Yardım",
+                        "link": "help"
+                    },
+                    {
+                        "title": "Dil Ayarları",
+                        "link": "setup-language"
+                    }
+                ],
+                "content": "<p>Tamamen kurulmadan önce Hocam-İmdat'ı kullanamazsın. </p>"
+            },
+            {
+                "id": "home-not-configured-alarm",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hocam-İmdat",
+                "status": [
+                    {
+                        "title": "Kur tamamlanmadı",
+                        "color": "red",
+                        "link": "help-not-configured"
+                    }
+                ],
+                "action": [
+                    {
+                        "title": "Basit Ayarlar",
+                        "link": "",
+                        "status": "checked"
+                    },
+                    {
+                        "title": "Uyarıyı Ayarla",
+                        "link": "setup-alarm"
+                    },
+                    {
+                        "title": "Saklamayı etkinleştir",
+                        "link": "setup-disguise",
+                        "status": "disabled"
+                    }
+                ],
+                "items": [
+                    {
+                        "title": "Hakkında",
+                        "link": "setup-about"
+                    },
+                    {
+                        "title": "Yardım",
+                        "link": "help"
+                    },
+                    {
+                        "title": "Dil Ayarları",
+                        "link": "setup-language"
+                    }
+                ],
+                "content": "<p>Tamamen kurulmadan önce Hocam-İmdat'ı kullanamazsın. </p>"
+            },
+            {
+                "id": "home-not-configured",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hocam-İmdat",
+                "action": [
+                    {
+                        "title": "Hazırla",
+                        "link": "setup-warning"
+                    }
+                ],
+                "items": [
+                    {
+                        "title": "Hakkında",
+                        "link": "setup-about"
+                    },
+                    {
+                        "title": "Dil Ayarları",
+                        "link": "setup-language"
+                    }
+                ],
+                "content": "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> Hocam-İmdat başın beladayken kişilerine gizlice uyarı gönderen bir Android uygulamasıdır. Etkinleştirildiğinde, her beş dakikada bir konumunla beraber uyarı gönderecektir. Uygulama, telefonunda basit bir hesap makinesi gibi görünerek gizli kalacaktır.</p>"
+            },
+            {
+                "id": "home-alerting",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Hocam-İmdat",
+                "status": [
+                    {
+                        "title": "Uyarı Gönderiliyor",
+                        "color": "red",
+                        "link": "help-alerting"
+                    }
+                ],
+                "action": [
+                    {
+                        "title": "Göndermeyi Durdur",
+                        "link": "home-ready"
+                    }
+                ],
+                "content": "<p>Hocam-İmdat şu anda uyarı mesajlarını gönderiyor. Mesajları iptal etmek için Göndermeyi Durdur düğmesine bas.</p>"
+            },
+            {
+                "id": "code",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Code",
+                "component": "code",
+                "action": [
+                    {
+                        "title": "Hadi",
+                        "link": "home-ready"
+                    }
+                ],
+                "fail": "Eğer pin kodunu unutursan telefon ayarlarından uygulamayı kaldır ve tekrar kur."
+            },
+            {
+                "id": "checklist",
+                "lang": "tr",
+                "type": "modal",
+                "title": "Checklist",
+                "action": [
+                    {
+                        "title": "Şimdi Sakla",
+                        "link": "close"
+                    },
+                    {
+                        "title": "Vazgeç",
+                        "link": "home-ready",
+                        "status": "disabled"
+                    }
+                ],
+                "checklist": [
+                    {
+                        "title": "Güvenlik planını gözden geçir ve kişilerini düzenli şekilde güncelle."
+                    },
+                    {
+                        "title": "Çalıştığından emin olmak için uyarıyı test et"
+                    },
+                    {
+                        "title": "Hattında yeterli kontör bulunduğuna emin ol"
+                    },
+                    {
+                        "title": "GPS'i etkinleştir (konumunun takip edilmesine izin vermek istiyorsan)"
+                    },
+                    {
+                        "title": "Telefonunu şarjını tamamen doldur"
+                    }
+                ],
+                "content": "<p>Daha fazlası <a href=\"#help_risk\">güvenlik ipuçları...</a></p>"
+            },
+            {
+                "id": "setup-alarm-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Uyarıyı kur",
+                "action": [
+                    {
+                        "title": "Öğren",
+                        "link": "setup-alarm-test-hardware-reTraining"
+                    }
+                ],
+                "content": "<p>Acil bir durumda Hocam-İmdat uygulamasını nasıl etkinleştireceğini öğren ve test et. </p><p>Hocam-İmdat uygulaması telefonun güç düğmesinden uyarıyı etkinleştirebildiğin için eşsizdir.  Yani mesela ceketinin cebinden, bunu gizlice yapabilirsin.</p>"
+            },
+            {
+                "id": "setup-alarm-test-hardware-reTraining",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Hardware uyarısını test et",
+                "introduction":  "Şimdi Dene! Bir titreşim hissedene kadar güç düğmesine tekrar tekrar bas. Uyarıyı etkinleştirmek için güç düğmesini kullanmak ekranını kilitleyebilir. Uygulamayı kurmaya devam etmek için sadece ekran kilidini aç.",
+                "component": "alarm-test-hardware",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-alarm-test-hardware-success-reTraining"
+                },
+                "fail": {
+                    "link": "setup-alarm-test-hardware-fail-reTraining"
+                },
+                "content": "<p><img src=\"/media/mobile/panic_button_activation_360.gif\" alt=\"\"></p>"
+            },
+            {
+                "id": "setup-alarm-test-hardware-success-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Tebrikler!",
+                "action": [
+                    {
+                        "title": "İleri",
+                        "link": "setup-alarm-disguise-reTraining"
+                    }
+                ],
+                "content": "<p>Testin başarılıydı! Acil bir durumda, uygulamayı etkinleştirmiş olacaktın ve her beş dakikada bir otomatik olarak bir uyarı gönderilmiş olacaktı.</p>"
+            },{
+                "id": "setup-alarm-test-hardware-fail-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Setup the Alarm",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-alarm-test-hardware-reTraining"
+                    }
+                ],
+                "content":  "<p>Telefonunun güç düğmesinden uyarıyı etkinleştirmekte başarılı olamamışsın gibi görünüyor. </p><p>Unutma: Bir titreşim hissedene kadar, hesap makinesinde bir düğmeye basmaya devam et. Bazı telefonlarda, düğmeye 10 defadan fazla basman ve sonra 2 defa onaylamak için basman gerekebilir.</p>"
+            },
+            {
+                "id": "setup-alarm-disguise-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Uyarıyı kur",
+                "action": [
+                    {
+                        "title": "Öğren",
+                        "link": "setup-alarm-test-disguise-reTraining"
+                    }
+                ],
+                "content": "<p> Alternatif olarak, uyarıyı direkt olarak uygulamanın sahte görünümlü ekranından etkinleştirebilirsin.</p>"
+            },{
+                "id": "setup-alarm-test-disguise-reTraining",
+                "lang": "tr",
+                "type": "interactive",
+                "title": "Test Disguised Alarm",
+                "introduction": "Şimdi Dene! Bir titreşim hissedene kadar güç düğmesine tekrar tekrar bas",
+                "component": "alarm-test-disguise",
+                "timers": {
+                    "info": "0",
+                    "inactive": "10",
+                    "fail": "20"
+                },
+                "success": {
+                    "link": "setup-alarm-test-disguise-success-reTraining"
+                },
+                "fail": {
+                    "link": "setup-alarm-test-disguise-fail-reTraining"
+                }
+            },
+            {
+                "id": "setup-alarm-test-disguise-fail-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Setup Alert",
+                "action": [
+                    {
+                        "title": "Tekrar Dene",
+                        "link": "setup-alarm-test-disguise-reTraining"
+                    }
+                ],
+                "content": "<p>Uyarıyı etkinleştirmekte başarılı olamamışsın gibi görünüyor.</p><p>Unutma: Bir titreşim hissedene kadar, hesap makinesinde bir düğmeye basmaya devam et.</p>"
+            },
+            {
+                "id": "setup-alarm-test-disguise-success-reTraining",
+                "lang": "tr",
+                "type": "simple",
+                "title": "Tebrikler!",
+                "action": [
+                    {
+                        "title": "Bitir",
+                        "link": "closee"
+                    }
+                ],
+                "content": "<p> Tebrikler, yeni titreşim şekilleri test edildi!</p>"
+            }
+        ]
+    }
+}
