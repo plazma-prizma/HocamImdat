@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_setup">Hocam-İmdat</string>
+    <string name="app_name">Calculate!</string>
+
+    <string name="characters_left">Karakter:&#160;</string>
+    <string name="save_text">Kaydet</string>
+
+    <string name="enter_message_hint">Mesaj Yazın</string>
+
+    <string name="i_am_at">Buradayım</string>
+    <string name="i_am_at_url">Buradayım https://maps.google.com/GPS-location</string>
+    <string name="location_not_found">Konumunuz belirleniyor</string>
+    <string name="stop_alert_message">Uyarı durduruldu</string>
+    <string name="panic_button">Panic\nButton</string>
+    <string name="page_title_text">Title</string>
+
+    <string name="page_status_text">Status</string>
+    <string name="page_modal_button1_text">Button1</string>
+    <string name="page_modal_button2_text">Button2</string>
+
+    <string name="page_button_action_text">Action</string>
+    <string name="contact_hint_text">numara ekleyin</string>
+    <string name="default_emergency_message">Yardım edin, tehlike altındayım</string>
+    <string name="emergency_message_header">Acil Durum Mesajı</string>
+    <string name="sms_settings_subtitle">En fazla 3 adet acil durumda ulaşılabilecek kişi ekleyin</string>
+    <string name="alert_status_standby">Alarm beklemede</string>
+    <string name="send_emergency_alert">&#160;&#160;Acil durum uyarısı gönder</string>
+    <string name="stop_alert">&#160;&#160;Uyarıyı durdur</string>
+    <string name="alert_status_active">Uyarı aktif ve her beş dakikada bir mesaj gönderiyor.</string>
+
+    <string name="first_contact">&#160;1.&#160;</string>
+    <string name="second_contact">&#160;2.&#160;</string>
+    <string name="third_contact">&#160;3.&#160;</string>
+    <string name="choose_contact">Acil durum kişilerini seç</string>
+
+    <string name="code_ok">Tamam</string>
+    <string name="incorrect_pin">Lütfen doğru pin kodunu giriniz</string>
+    <string name="incorrect_pin_3_times">Eğer pin kodunuzu hatırlamıyorsanız uygulamayı yeniden yükleyin.</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="addition">+</string>
+    <string name="subtraction">&#8722;</string>
+    <string name="multiplication">&#215;</string>
+    <string name="division">&#247;</string>
+    <string name="equal_to">=</string>
+    <string name="decimal_point">.</string>
+    <string name="char_c">C</string>
+
+    <string name="confirmation_message">After vibration, press power button once again for confirmation within 3 seconds.</string>
+
+    <string name="deactivate_power_button_trigger">Deactivated</string>
+    <string name="activate_power_button_trigger">Activated </string>
+
+    <string name="defaultTimeGuard">3</string>
+    <string name="defaultConfirmationClicks">1</string>
+
+    <string name="feedbackAlarmActivationDefault">5</string>
+
+    <string name="testAlarmTitle">Yeni ayarları test et</string>
+    <string name="redoTrainingSummary">Eğitim egzersizini tekrarla</string>
+
+    <string name="triggerSettingsHeaderTitle">Uyarı Tetikleme Ayarları</string>
+    <string name="default7RepeatedPressTitle">Varsayılan</string>
+    <string name="default7RepeatedPressSummary">7 kez basarak</string>
+    <string name="default7RepeatedPressKey">default7Press</string>
+    <string name="extraConfirmationPressTitle">Ekstra Onay</string>
+    <string name="extraConfirmationPressSummary">5 kez basma ve onay</string>
+    <string name="extraConfirmationPressKey">extraConfirmation </string>
+
+    <string name="customTitle">Özel Ayarlar</string>
+    <string name="default7RepeatedPressValue">1</string>
+    <string name="extraConfirmationPressValue">2</string>
+
+    <string name="resource5PressPlusConfirmation">&#60;img src=&#34;/media/mobile/panic_button_activation_5press_confirm_en.gif&#34; &#62;</string>
+
+</resources>
