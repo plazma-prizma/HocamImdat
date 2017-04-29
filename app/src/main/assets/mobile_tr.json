@@ -81,7 +81,7 @@
                         "link": "setup-disguise-test-open"
                     }
                 ],
-                "content": "<p>Uygulamayı, Hesap Lütfen! görünümünden açmakta başarısız olmuşsun gibi görünüyor. </p><p>Unutma: Herhangi bir tuşa basılı tut. Pin kodu girmen istenecektir. </p>"
+                "content": "<p>Uygulamayı, Calculate! görünümünden açmakta başarısız olmuşsun gibi görünüyor. </p><p>Unutma: Herhangi bir tuşa basılı tut. Pin kodu girmen istenecektir. </p>"
             },
             {
                 "id": "setup-disguise-test-unlock",
@@ -113,7 +113,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Tebrikler, Hocam-İmdat uygulamasını başarılı bir şekilde yapılandırdın!</p>"
+                "content": "<p>Hocam-İmdat uygulamasını başarılı bir şekilde yapılandırdın!</p>"
             },
             {
                 "id": "setup-disguise-test-open-fail",
@@ -133,7 +133,7 @@
                 "lang": "tr",
                 "type": "interactive",
                 "title": "Sahte görünümü test et",
-                "introduction": "Şimdi dene! Uygulamayı Hesap Lütfen! simgesine tıklayarak aç.",
+                "introduction": "Şimdi dene! Uygulamayı Calculate! simgesine tıklayarak aç.",
                 "component": "disguise-test-open",
                 "timers": {
                     "info": "0",
@@ -151,14 +151,14 @@
                 "id": "setup-disguise-test-code-fail",
                 "lang": "tr",
                 "type": "simple",
-                "title": "Sahte görünüm oluştur",
+                "title": "Sahte Görünüm Oluştur",
                 "action": [
                     {
                         "title": "Tekrar Dene",
                         "link": "setup-disguise-test-unlock"
                     }
                 ],
-                "content": "<p>Uygulamayı, Hesap Lütfen! görünümünden açmakta başarısız olmuşsun gibi görünüyor.</p><p> Unutma: Yapılandırmanın ilk aşamalarında belirlediğin pin kodunu gir. Eğer pin kodunu hatırlayamıyorsan, lütfen uygulamayı telefonundan kaldır ve tekrar yükle. </p>"
+                "content": "<p>Uygulamayı, Calculate! görünümünden açmakta başarısız olmuşsun gibi görünüyor.</p><p> Unutma: Yapılandırmanın ilk aşamalarında belirlediğin pin kodunu gir. Eğer pin kodunu hatırlayamıyorsan, lütfen uygulamayı telefonundan kaldır ve tekrar yükle. </p>"
             },
             {
                 "id": "setup-disguise-test-code",
@@ -189,10 +189,10 @@
                 "id": "setup-disguise",
                 "lang": "tr",
                 "type": "simple",
-                "title": "Sahte görünüm oluştur",
+                "title": "Sahte Görünüm Oluştur",
                 "action": [
                     {
-                        "title": "Öğren",
+                        "title": "Dene",
                         "link": "setup-disguise-test-open"
                     }
                 ],
@@ -326,7 +326,7 @@
                 "title": "Setup Alert",
                 "action": [
                     {
-                        "title": "Learn",
+                        "title": "Dene",
                         "link": "setup-alarm-test-disguise"
                     }
                 ],
@@ -339,7 +339,7 @@
                 "title": "Setup Alert",
                 "action": [
                     {
-                        "title": "Öğren",
+                        "title": "Dene",
                         "link": "setup-alarm-test-hardware"
                     }
                 ],
@@ -368,7 +368,7 @@
                 "id": "settings-message",
                 "lang": "tr",
                 "type": "interactive",
-                "title": "Setup alert message",
+                "title": "Mesaj Ayarları",
                 "introduction": "Konumunuzla birlikte şu mesaj gönderilecektir.",
                 "warning": "Bu mesajı aldıklarında ne yapacaklarını bilmeleri için kişilerinle bir plan oluştur.",
                 "component": "message",
@@ -425,7 +425,7 @@
                 "id": "settings-contacts",
                 "lang": "tr",
                 "type": "interactive",
-                "title": "Setup contacts",
+                "title": "Kişi Ayarları",
                 "introduction": "Uygulamayı etkinleştirirsen, bu insanlar her beş dakikada bir uyarı alacaklardır. ",
                 "warning": "Bu insanlar seni şahsen tanımalı ve hızlıca harekete geçebilmeli.",
                 "component": "contacts",
@@ -436,13 +436,13 @@
                         "confirmation": "Kişilerin kaydedildi"
                     }
                 ],
-                "content": "<p>Güvenlik İpuçları</p><ul><li>Sana kimin kolay bir şekilde yardımcı olabileceğini düşün.- Tehlikede olduğunda, sana yardımcı olamayacak kişileri bilgilendirmenin bir anlamı yok. Seçtiğin kişilerle, acil durumlarda hızlı hareket etmeye hazırlıklı olabilsinler diye bir plan yap. </li><li>-Risklerin farkında ol- kişilerinin nasıl bir risk altında olabilir?</li></ul>"
+                "content": "<p>Güvenlik İpuçları</p><ul><li>Sana kimin kolay bir şekilde yardımcı olabileceğini düşün.- Tehlikede olduğunda, sana yardımcı olamayacak kişileri bilgilendirmenin bir anlamı yok. Seçtiğin kişilerle, acil durumlarda hızlı hareket etmeye hazırlıklı olabilsinler diye bir plan yap. </li><li>-Risklerin farkında ol- seçtiğin kişiler nasıl bir riskin altına girebilirler?</li></ul>"
             },
             {
                 "id": "settings-code",
                 "lang": "tr",
                 "type": "interactive",
-                "title": "Create a pincode",
+                "title": "Pin Ayarları",
                 "introduction": "Bu pin kodu, uygulamanın uyarıyı otomatik olarak göndermesini durdurmak ve uygulama ayarlarına erişmek için gereklidir. Acil bir durumda uyarı mesajlarını etkinleştirmek için gerekli değildir.",
                 "warning": "Pin kodunu unutma! Unutursan, uygulamayı baştan yüklemen gerekecek.",
                 "component": "code",
@@ -474,7 +474,7 @@
                 "id": "settings-alert",
                 "lang": "tr",
                 "type": "interactive",
-                "title": "Uyarı ayarları",
+                "title": "Uyarı Ayarları",
                 "introduction": "Sıklığı Ayarla",
                 "warning": "Şarjına dikkat et! Çok sık uyarı göndermek şarjını bitirebilir.",
                 "component": "alert",
@@ -536,7 +536,7 @@
                 ],
                 "action": [
                     {
-                        "title": "Sakla",
+                        "title": "Görünümü Değiştir",
                         "link": "checklist"
                     }
                 ],
@@ -580,7 +580,7 @@
                         "status": "checked"
                     },
                     {
-                        "title": "Saklamayı etkinleştir",
+                        "title": "Sahte Görünümü Ayarla",
                         "link": "setup-disguise"
                     }
                 ],
@@ -623,7 +623,7 @@
                         "link": "setup-alarm"
                     },
                     {
-                        "title": "Saklamayı etkinleştir",
+                        "title": "Sahte Görünümü Ayarla",
                         "link": "setup-disguise",
                         "status": "disabled"
                     }
@@ -685,7 +685,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Hocam-İmdat şu anda uyarı mesajlarını gönderiyor. Mesajları iptal etmek için Göndermeyi Durdur düğmesine bas.</p>"
+                "content": "<p>Hocam-İmdat kişilerine şu anda uyarı mesajı gönderiyor. İptal etmek için Göndermeyi Durdur tuşuna bas.</p>"
             },
             {
                 "id": "code",
@@ -705,7 +705,7 @@
                 "id": "checklist",
                 "lang": "tr",
                 "type": "modal",
-                "title": "Checklist",
+                "title": "Kontrol Listesi",
                 "action": [
                     {
                         "title": "Şimdi Sakla",
@@ -734,16 +734,16 @@
                         "title": "Telefonunu şarjını tamamen doldur"
                     }
                 ],
-                "content": "<p>Daha fazlası <a href=\"#help_risk\">güvenlik ipuçları...</a></p>"
+                "content": "<p>Daha fazlası için <a href=\"#help_risk\">güvenlik ipuçları...</a></p>"
             },
             {
                 "id": "setup-alarm-reTraining",
                 "lang": "tr",
                 "type": "simple",
-                "title": "Uyarıyı kur",
+                "title": "Uyarıyı Kur",
                 "action": [
                     {
-                        "title": "Öğren",
+                        "title": "Dene",
                         "link": "setup-alarm-test-hardware-reTraining"
                     }
                 ],
@@ -798,10 +798,10 @@
                 "id": "setup-alarm-disguise-reTraining",
                 "lang": "tr",
                 "type": "simple",
-                "title": "Uyarıyı kur",
+                "title": "Uyarıyı Kur",
                 "action": [
                     {
-                        "title": "Öğren",
+                        "title": "Dene",
                         "link": "setup-alarm-test-disguise-reTraining"
                     }
                 ],
@@ -811,7 +811,7 @@
                 "lang": "tr",
                 "type": "interactive",
                 "title": "Test Disguised Alarm",
-                "introduction": "Şimdi Dene! Bir titreşim hissedene kadar güç düğmesine tekrar tekrar bas",
+                "introduction": "Şimdi Dene! Bir titreşim hissedene kadar herhangi bir tuşa tekrar tekrar bas",
                 "component": "alarm-test-disguise",
                 "timers": {
                     "info": "0",
