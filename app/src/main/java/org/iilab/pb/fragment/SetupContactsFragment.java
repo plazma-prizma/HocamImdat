@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -53,6 +54,7 @@ public class SetupContactsFragment extends Fragment {
     Page currentPage;
     PageItemAdapter pageItemAdapter;
     List<Integer> fragmentIds = Arrays.asList(R.id.first_contact, R.id.second_contact, R.id.third_contact);
+    CheckBox warnSecGuards;
 
     public static SetupContactsFragment newInstance(String pageId, int parentActivity) {
         SetupContactsFragment f = new SetupContactsFragment();
@@ -70,6 +72,8 @@ public class SetupContactsFragment extends Fragment {
         tvTitle = (TextView) view.findViewById(R.id.fragment_title);
         tvIntro = (TextView) view.findViewById(R.id.fragment_intro);
         tvContent = (TextView) view.findViewById(R.id.fragment_contents);
+        warnSecGuards = (CheckBox) view.findViewById(R.id.checkbox_warn_sec_guards);
+        warnSecGuards.setVisibility(View.VISIBLE);
 
         bAction = (Button) view.findViewById(R.id.fragment_action);
         ContactPickerFragment contactPickerFragment=(ContactPickerFragment)getChildFragmentManager().findFragmentById(R.id.first_contact);

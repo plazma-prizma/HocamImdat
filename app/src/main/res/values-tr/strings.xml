@@ -32,6 +32,7 @@
     <string name="first_contact">&#160;1.&#160;</string>
     <string name="second_contact">&#160;2.&#160;</string>
     <string name="third_contact">&#160;3.&#160;</string>
+    <string name="warn_security_guards">&#160;Kampüs güvenlik görevlilerine haber ver&#160;</string>
     <string name="choose_contact">Acil durum kişilerini seç</string>
 
     <string name="code_ok">Tamam</string>
