@@ -117,6 +117,7 @@
 
                 <CheckBox
                     android:visibility="gone"
+                    android:checked="true"
                     style="@style/contact_number"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"

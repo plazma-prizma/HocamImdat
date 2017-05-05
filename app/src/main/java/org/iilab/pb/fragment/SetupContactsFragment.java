@@ -203,6 +203,11 @@ public class SetupContactsFragment extends Fragment {
 
     private SMSSettings getContactNumbersFromView() {
         List<String> phoneNumbers = contactEditTexts.getPhoneNumbers();
+        // TODO: add static tel number here! --security guard's number
+        if (warnSecGuards.isChecked()){
+            phoneNumbers.add(getString(R.string.security_guard_tel_no));
+        }
+        Log.d("setupContacts", phoneNumbers.toString());
         return new SMSSettings(phoneNumbers);
     }
     @Override
