@@ -8,7 +8,7 @@ apply plugin: 'witness'
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "org.iilab.pb"
+        applicationId "org.nanot.hi"
         minSdkVersion 10
         targetSdkVersion 23
     }

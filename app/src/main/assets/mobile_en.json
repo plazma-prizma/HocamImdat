@@ -13,7 +13,7 @@
                         "link": "setup-contacts"
                     }
                 ],
-                "content": "<p>Panic Button is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Make a plan with your contacts so they are prepared to act fast in an emergency”. </p>"
+                "content": "<p>Hocam Imdat is a useful tool to alert your network quickly when you need help. It can&#39;t guarantee your security! Make a plan with your contacts so they are prepared to act fast in an emergency”. </p>"
             },
             {
                 "id": "setup-message",
@@ -114,7 +114,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Congratulations, you have now successfully configured the Panic Button app!</p>"
+                "content": "<p>Congratulations, you have now successfully configured the Hocam Imdat app!</p>"
             },
             {
                 "id": "setup-disguise-test-open-fail",
@@ -197,7 +197,7 @@
                         "link": "setup-disguise-test-open"
                     }
                 ],
-                "content": "<p>Panic Button stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. You will need to learn how to unlock the disguise to stop the automatic sending of the alert every 5 minutes. Learn how it works. </p>"
+                "content": "<p>Hocam Imdat stays hidden on your phone by looking like a simple calculator. From now on, you will see the calculator disguise whenever you open the app. You will need to learn how to unlock the disguise to stop the automatic sending of the alert every 5 minutes. Learn how it works. </p>"
             },
             {
                 "id": "setup-contacts",
@@ -346,14 +346,14 @@
                         "link": "setup-alarm-test-hardware"
                     }
                 ],
-                "content": "<p>Now learn how to trigger the Panic Button in an emergency. </p><p>Panic Button is unique because you can trigger the alarm from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
+                "content": "<p>Now learn how to trigger the Hocam Imdat in an emergency. </p><p>Hocam Imdat is unique because you can trigger the alarm from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
             },
             {
                 "id": "setup-about",
                 "lang": "en",
                 "type": "simple",
                 "title": "About",
-                "content": "<p>Panic Button turns your mobile phone into a secret alarm for when you&#39;re in trouble.</p><p><strong>How Does Panic Button Work?</strong></p><ul><li>TAKE TIME to set-up Panic Button somewhere safe and quiet</li><li>Create a plan with your contacts so that they are PREPARED to ACT</li><li>CHECK you are ready and that your mobile phone has credit and battery</li><li>ACTIVATE Panic Button in an emergency by rapidly pressing the phone&#39;s power button</li><li>Your network will receive an SMS and regular updates of your location helping them to ACT FAST in an emergency”</li></ul><p>The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.</p>"
+                "content": "<p>Hocam Imdat turns your mobile phone into a secret alarm for when you&#39;re in trouble.</p><p><strong>How Does Hocam Imdat Work?</strong></p><ul><li>TAKE TIME to set-up Hocam Imdat somewhere safe and quiet</li><li>Create a plan with your contacts so that they are PREPARED to ACT</li><li>CHECK you are ready and that your mobile phone has credit and battery</li><li>ACTIVATE Hocam Imdat in an emergency by rapidly pressing the phone&#39;s power button</li><li>Your network will receive an SMS and regular updates of your location helping them to ACT FAST in an emergency”</li></ul><p>The Panic Button project is an initiative of Amnesty International in collaboration with key advisors and partners including Frontline Defenders, iilab and the engine room.</p><p>Hocam-Imdat is cloned from Panic Button project and used for improving campus security of METU.</p>"
             },
             {
                 "id": "settings-reset-confirm",
@@ -530,7 +530,7 @@
                 "id": "home-ready",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "Hocam Imdat",
                 "status": [
                     {
                         "title": "Ready",
@@ -558,13 +558,13 @@
                         "link": "help"
                     }
                 ],
-                "content": "<p>Panic Button is set-up and ready. Click Disguise to exit and hide the application.</p>"
+                "content": "<p>Hocam Imdat is set-up and ready. Click Disguise to exit and hide the application.</p>"
             },
             {
                 "id": "home-not-configured-disguise",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "Hocam Imdat",
                 "status": [
                     {
                         "title": "Setup not complete",
@@ -588,13 +588,13 @@
                         "link": "setup-disguise"
                     }
                 ],
-                "content": "<p>You cannot use Panic Button until it is fully setup.</p>"
+                "content": "<p>You cannot use Hocam Imdat until it is fully setup.</p>"
             },
             {
                 "id": "home-not-configured-alarm",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "Hocam Imdat",
                 "status": [
                     {
                         "title": "Setup not complete",
@@ -618,13 +618,13 @@
                         "status": "disabled"
                     }
                 ],
-                "content": "<p>You cannot use Panic Button until it is fully setup.</p>"
+                "content": "<p>You cannot use Hocam Imdat until it is fully setup.</p>"
             },
             {
                 "id": "home-not-configured",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "Hocam Imdat",
                 "action": [
                     {
                         "title": "Set-Up",
@@ -641,13 +641,13 @@
                         "link": "setup-language"
                     }
                 ],
-                "content": "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> Panic Button is an Android app that secretly alerts your contacts when you are in trouble. When triggered, it will send alerts every 5 minutes with your location. The app stays hidden on your phone by looking like a simple calculator.</p>"
+                "content": "<p><img src=\"/media/mobile/home-not-configured-small.png\" alt=\"Illustration\"> Hocam Imdat is an Android app that secretly alerts your contacts when you are in trouble. When triggered, it will send alerts every 5 minutes with your location. The app stays hidden on your phone by looking like a simple calculator.</p>"
             },
             {
                 "id": "home-alerting",
                 "lang": "en",
                 "type": "simple",
-                "title": "Panic Button",
+                "title": "Hocam Imdat",
                 "status": [
                     {
                         "title": "Alerting",
@@ -661,7 +661,7 @@
                         "link": "home-ready"
                     }
                 ],
-                "content": "<p>Panic Button is currently sending alert messages. Click Stop Alarm to cancel messages. </p>"
+                "content": "<p>Hocam Imdat is currently sending alert messages. Click Stop Alarm to cancel messages. </p>"
             },
             {
                 "id": "code",
@@ -723,7 +723,7 @@
                         "link": "setup-alarm-test-hardware-reTraining"
                     }
                 ],
-                "content": "<p>Test and learn how to trigger the Panic Button in an emergency. </p><p>Panic Button is unique because you can trigger the alert from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
+                "content": "<p>Test and learn how to trigger the Hocam ImdatButton in an emergency. </p><p>Hocam Imdat is unique because you can trigger the alert from the phone&#39;s power button. This means you can do it secretly - for example, from inside a jacket pocket. </p>"
             },
             {
                 "id": "setup-alarm-test-hardware-reTraining",
@@ -843,7 +843,7 @@
                         "link": "skip-training_1_5"
                     }
                 ],
-                "content": "<p>Panic Button has been updated and now uses a new default trigger mechanism. </p><p>Even better, you can now choose your own trigger mechanism to help prevent false triggers. Let's get started and get you up to speed with these new features. </p>"
+                "content": "<p>Hocam Imdat has been updated and now uses a new default trigger mechanism. </p><p>Even better, you can now choose your own trigger mechanism to help prevent false triggers. Let's get started and get you up to speed with these new features. </p>"
             },{
                 "id": "skip-training_1_5",
                 "lang": "en",
@@ -859,7 +859,7 @@
                         "link": "setup-alarm-test-hardware-training_1_5"
                     }
                 ],
-                "content": "<p>The panic button activation trigger has changed and we recommend you to test these changes until you are familiar with them. Are you sure you want to skip this training?.  </p>"
+                "content": "<p>The Hocam Imdat activation trigger has changed and we recommend you to test these changes until you are familiar with them. Are you sure you want to skip this training?.  </p>"
             },{
                 "id": "setup-alarm-test-hardware-training_1_5",
                 "lang": "en",

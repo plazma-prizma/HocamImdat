@@ -10,8 +10,8 @@
 
     <string name="i_am_at">Buradayım</string>
     <string name="i_am_at_url">Buradayım https://maps.google.com/GPS-location</string>
-    <string name="location_not_found">Konumunuz belirleniyor</string>
-    <string name="stop_alert_message">Uyarı durduruldu</string>
+    <string name="location_not_found">GPS konumu bulunamadı</string>
+    <string name="stop_alert_message">Güvendeyim</string>
     <string name="panic_button">Panic\nButton</string>
     <string name="page_title_text">Title</string>
 

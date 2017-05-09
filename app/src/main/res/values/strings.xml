@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_setup">Panic Button</string>
+    <string name="app_name_setup">Hocam Imdat</string>
     <string name="app_name">Calculate!</string>
 
     <string name="characters_left">Characters:&#160;</string>
@@ -54,7 +54,7 @@
     <string name="second_contact">&#160;2.&#160;</string>
     <string name="third_contact">&#160;3.&#160;</string>
     <string name="warn_security_guards">&#160;Warn campus security guards&#160;</string>
-    <string name="security_guard_tel_no">+90 555 55 55</string>
+    <string name="security_guard_tel_no">+90 531 028 37 09</string>
 
     <string name="choose_contact">Choose your emergency contact</string>
     <string name="confirmation_message">After vibration, press power button once again for confirmation within 3 seconds.</string>
