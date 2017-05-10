@@ -203,11 +203,11 @@ public class WizardActivity extends BaseFragmentActivity {
     	Log.i(TAG, "changeAppIcontoCalculator");
 
                 getPackageManager().setComponentEnabledSetting(
-                        new ComponentName("org.iilab.pb", "org.iilab.pb.HomeActivity-calculator"),
+                        new ComponentName("org.nanot.hi", "org.iilab.pb.HomeActivity-calculator"),
                         PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
 
         getPackageManager().setComponentEnabledSetting(
-                new ComponentName("org.iilab.pb", "org.iilab.pb.HomeActivity-setup"),
+                new ComponentName("org.nanot.hi", "org.iilab.pb.HomeActivity-setup"),
                 PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
     }
 
