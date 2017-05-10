@@ -162,7 +162,14 @@ public class HomeActivity extends AppCompatActivity {
 
     private void setSupportedLanguages(Page languagesPage) {
         List<String> allowedLanguages = new ArrayList<>();
-        List<PageAction> actionLanguages = languagesPage.getAction();
+        List<PageAction> actionLanguages = new ArrayList<PageAction>();
+        if(languagesPage != null){
+            actionLanguages = languagesPage.getAction();
+        }
+        else{
+            PageAction pageAction = new PageAction("Türkçe", null, null, "tr", "Yeni dil belirlendi");
+            actionLanguages.add(pageAction);
+        }
         for (PageAction actionLanguage : actionLanguages) {
             allowedLanguages.add(actionLanguage.getLanguage());
         }
